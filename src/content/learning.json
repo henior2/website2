@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Modern C++",
+    "href": "https://s.kefir.ovh/docs/moderncpp"
+  },
+  {
+    "name": "C#",
+    "href": "https://dotnet.microsoft.com/"
+  },
+  {
+    "name": "Vue.js",
+    "href": "https://vuejs.org/"
+  },
+  {
+    "name": "Nuxt",
+    "href": "https://nuxt.com/"
+  },
+  {
+    "name": "TypeScript",
+    "href": "https://www.typescriptlang.org/"
+  }
+]
