@@ -2,6 +2,7 @@
 import LinkList from '@/components/LinkList.vue'
 import FunniGif from '@/components/FunniGif.vue'
 import learning from '@/content/learning.json'
+import gifs from '@/content/gifs.json'
 
 </script>
 
@@ -16,7 +17,7 @@ import learning from '@/content/learning.json'
 		</p>
 		<p title="God I should've used some kind of CMS instead of this">I'm currently learning these technologies (the list may be outdated):</p>
 		<LinkList :list-obj="learning" />
-		<FunniGif class="gif" />
+		<FunniGif class="gif" :gifs="gifs" />
 	</article>
 </template>
 

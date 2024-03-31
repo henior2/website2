@@ -1,6 +1,14 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 
+import gifs from '@/content/gifs.json'
+import { preloadImages } from '@/assets/preloadImages'
+import { onMounted } from 'vue'
+
+onMounted(async () => {
+	await preloadImages(gifs)
+})
+
 const year = new Date().getFullYear()
 
 const theme = 100;
