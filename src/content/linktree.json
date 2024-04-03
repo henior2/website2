@@ -15,8 +15,8 @@
   ],
   "friends": [
     {
-        "name": "Ketok",
-        "href": "https://ketok.xyz"
+      "name": "Ketok",
+      "href": "https://ketok.xyz"
     },
     {
       "name": "fira",
@@ -25,6 +25,10 @@
     {
       "name": "sokzkomucha",
       "href": "https://sokzkomucha.xyz"
+    },
+    {
+      "name": "Dewidos (site in Polish)",
+      "href": "https://www.dewidos.pl/"
     }
   ]
 }
