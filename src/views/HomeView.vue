@@ -4,6 +4,13 @@ import FunniGif from '@/components/FunniGif.vue'
 import learning from '@/content/learning.json'
 import gifs from '@/content/gifs.json'
 
+import { preloadImages } from '@/assets/preloadImages'
+import { onMounted } from 'vue'
+
+onMounted(async () => {
+	await preloadImages(gifs)
+})
+
 </script>
 
 <template>
