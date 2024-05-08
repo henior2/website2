@@ -14,7 +14,8 @@ const props = defineProps({
 	<div class="🖍️container">
 		<div class="🖍️title">
 			<a :href="href" target="_blank">
-				<img height="50" :src="icon" v-if="icon" alt="Icon for {{ name }}" />
+				<!-- <img height="50" :src="icon" v-if="icon" alt="Icon for {{ name }}" /> -->
+				<i :class="['nf', icon]" v-if="icon"></i>
 				<h2>{{ name }}</h2>
 			</a>
 <!--				<h2 v-if="icon">{{ name }}</h2>-->
@@ -45,5 +46,8 @@ h2 {
 	align-items: center;
 	gap: 10px;
 	margin-bottom: 1rem;
+}
+.nf {
+	font-size: 2em;
 }
 </style>

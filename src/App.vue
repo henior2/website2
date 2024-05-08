@@ -5,8 +5,6 @@ import gifs from '@/content/gifs.json'
 
 const year = new Date().getFullYear()
 
-const theme = 100;
-
 </script>
 
 <template>
@@ -23,10 +21,10 @@ const theme = 100;
 	<div class="content layout-component">
 		<main>
 			<RouterView />
+			
+			<footer>
+				<p>&copy; {{ year > 2024 ? `2024 - ${year}` : `2024` }} henior</p>
+			</footer>
 		</main>
-
-		<footer>
-			<p>&copy; {{ year > 2024 ? `2024 - ${year}` : `2024` }} henior</p>
-		</footer>
 	</div>
 </template>
